@@ -4,9 +4,9 @@
 Omarchy 4.0.6. The upstream project is https://github.com/omacom/omarchy.
 
 The following notice is reproduced from the upstream
-[4.0.6 licence](https://github.com/omacom/omarchy/blob/v4.0.6/LICENSE). It applies
-to the inherited Omarchy code and does not declare a licence for new additions
-in this repository.
+[4.0.6 licence](https://github.com/omacom/omarchy/blob/v4.0.6/LICENSE) and retained
+for the inherited Omarchy code. The project's [MIT licence](LICENSE) also covers
+the additions in this repository.
 
 ```text
 Copyright (c) David Heinemeier Hansson

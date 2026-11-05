@@ -151,7 +151,8 @@ Copy the plugin files into your user plugin directory:
 ```bash
 plugin_dir="$HOME/.config/omarchy/plugins/tomjagus.legacy-workspace-plus"
 mkdir -p "$plugin_dir"
-cp manifest.json Workspaces.qml WorkspaceModel.js THIRD_PARTY_NOTICES.md "$plugin_dir/"
+cp manifest.json Workspaces.qml WorkspaceModel.js LICENSE \
+  THIRD_PARTY_NOTICES.md "$plugin_dir/"
 omarchy-shell shell rescanPlugins
 omarchy plugin enable tomjagus.legacy-workspace-plus --section left
 ```
@@ -205,13 +206,14 @@ workspaces, one-display fallback, reconnection, assignment changes, mirrored
 outputs, and the `0` label. They do not replace testing the visible widget and
 physical monitor changes in an Omarchy session.
 
-## Attribution
+## License and attribution
 
 The original workspace widget comes from [Omarchy](https://omarchy.org/).
 Legacy Workspace Plus extends that widget with monitor-aware filtering,
 single-monitor fallback, and per-monitor active-workspace indicators. It is a
 community extension, not an official Omarchy plugin.
 
-The inherited Omarchy code is covered by the upstream MIT licence reproduced
-in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). A licence for the new
-additions has not yet been declared.
+Legacy Workspace Plus is distributed under the [MIT licence](LICENSE).
+Copyright for the additions is held by Tom Jagus. The upstream Omarchy
+copyright notice is preserved in `LICENSE`, and the original MIT notice is
+reproduced in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
